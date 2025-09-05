@@ -14,6 +14,7 @@ class InfoPage extends StatelessWidget {
         ),
         backgroundColor: Colors.deepPurple.shade900,
         centerTitle: true,
+        iconTheme: const IconThemeData(color: Colors.white),
       ),
       body: Padding(
         padding: const EdgeInsets.all(24.0),
